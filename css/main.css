@@ -1,0 +1,408 @@
+body {
+    background-color: #FFFBFB;
+}
+/* Mobile first styling */
+
+/* Styling the search button */
+
+    .search-bar {
+        border: none;
+        border-radius: 0;
+        border-bottom: 2px solid #000;
+        background-color: #FFFBFB;
+    }
+
+    .search-btn {
+        background-color: #fff;
+        border: none;
+        padding: 0 1rem 0 0;
+    }
+
+    .search-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* Styling the navbar */
+
+
+    .navbar {
+        background-color: #F7E7E1;
+        font-family: "bd-supper", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .nav-item {
+        justify-items: center;
+        width: 100px;
+        transition: width 1s ease 0s;
+    }
+
+    .nav-item:hover {
+        text-decoration: underline;
+        width: 200px;
+    }
+
+    
+
+    .search-bar {
+        background-color:#fff ;
+    }
+
+    .navbar li {
+        align-self: center;
+    }
+
+
+
+    /* Styling the hero image */
+    .banner {
+        position: relative;
+    }
+
+    /* Fixing the position of the arrow button */
+    
+    .down-button {
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        transform: translate(-50%, 40%);
+    }
+
+    .down {
+        width: 40px;
+    }
+
+    h1, h2 {
+        font-family: "bd-supper", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .btn {
+        font-family: futura-pt, sans-serif;
+        font-style: normal;
+        font-size: 100;
+        color: #000;
+        background-color: #F7E7E1;
+        border-color: #000;
+        border-radius: 19px;
+    }
+
+        /* Adding padding to the different sections */
+
+        .graphic-design p {
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            padding-top: 0.5rem;
+        }
+
+        .graphic-design h2 {
+            padding-top: 1.2rem;
+        }
+        
+        .videography p {
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            padding-top: 0.5rem;
+        }
+
+        .videography h2 {
+            padding-top: 1.2rem;
+        }
+    
+        .photography p {
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            padding-top: 0.5rem;
+        }
+
+        .photography h2 {
+            padding-top: 1.2rem;
+        }
+
+        /* Making the h2 in About section center */
+
+        .aboutme h2 {
+            justify-content: center;
+        }
+
+        .storytelling p {
+            padding-top: 1rem;
+        }
+
+     /* Styling the footer */
+    
+     footer {
+        padding: 1.5rem;
+        margin-top: 2rem;
+        background-color: #FBD6EA;
+    }
+    
+    footer .row div {
+        background-color: #FBD6EA;
+    }
+    
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-links a {
+        text-decoration: none;
+        text-transform: capitalize;
+        color: #000;
+        margin-top: .5rem;
+    }
+    
+    .social-icons a {
+        margin-top: 3rem;
+        text-decoration: none;
+    }
+    
+    footer h4 {
+        font-family: futura-pt, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    footer a {
+        font-family: futura-pt, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        
+    }
+
+    footer .copyright p {
+        font-family: futura-pt, sans-serif;
+        font-style: normal;
+        font-size: 7;
+    }
+
+    footer .container {
+        background-color: #FBD6EA;
+    }
+
+    .about-me h2 {
+        align-items: center;
+    }
+
+    .contact .btn {
+        font-family: futura-pt, sans-serif;
+        font-style: normal;
+        font-size: 100;
+        color: #000;
+        background-color: #F7E7E1;
+        border-color: #000;
+        border-radius: 19px;
+    }
+
+    .vidframe {
+        width: 80%;
+        height: auto;
+        margin: 2rem;
+    }
+
+    
+
+
+
+/***** Tablet Styles *****/
+
+@media screen and (min-width: 768px) {
+    .vid-content .text-center {
+        order: -1;
+    }
+
+    .vid-image {
+        order: 2;
+    }
+}
+
+
+
+/***** Desktop Styles *****/
+
+@media screen and (min-width: 1080px) {
+
+    /* Styling the hero image */
+    .banner {
+        position: relative;
+    }
+
+    /* Fixing the position of the arrow button */
+    
+    .down-button {
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+
+    img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* Adding padding to the different sections */
+
+    .graphic-design p {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    
+    .videography p {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .photography p {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    
+   
+    
+    .photo-image {
+        padding-left: 0;
+    }
+
+    /* Styling portfolio */
+
+  
+
+    /* Styling Contact Page */
+
+
+
+    .message img {
+        align-content: center;
+    }
+
+    .message-text img {
+        padding-left: 5rem;
+    }
+
+    .message-image {
+        align-content: center; 
+        padding-left: 7.5rem;
+    }
+
+    .message-me p {
+        /* justify-items: center; */
+        margin: 4rem;
+        padding-right: 6.5rem;
+        padding-left: 1.5rem;
+
+    }
+
+    .contact {
+        margin-left: 22rem;
+    }
+
+    .contact h3 {
+        font-family: "bd-supper", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+
+    }
+
+    /* Styling About Me page */
+    .about-me {
+        padding-left: 25rem;
+    }
+
+    .about-me p {
+        margin-right: 19rem;
+    }
+
+    .about-me h2 {
+        margin-left: 15rem;
+    }
+
+    .about-text {
+        padding-left: 6rem;
+    }
+
+    /* Styling the footer */
+    
+    footer {
+        padding: 1.5rem;
+        margin-top: 2rem;
+    }
+    
+    footer .row div {
+        background-color: #FBD6EA;
+    }
+    
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-links a {
+        text-decoration: none;
+        text-transform: capitalize;
+        color: #000;
+        margin-top: .5rem;
+    }
+
+    .btn {
+        font-family: futura-pt, sans-serif;
+        font-style: normal;
+        font-size: 100;
+        color: #000;
+        background-color: #F7E7E1;
+        border-color: #000;
+        border-radius: 15px;
+    }
+
+    .carousel-section {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .social-icons a {
+        margin-top: 3rem;
+        text-decoration: none;
+    }
+    
+    footer h4 {
+        font-family: futura-pt, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    footer a {
+        font-family: futura-pt, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        
+    }
+
+    footer .copyright p {
+        font-family: futura-pt, sans-serif;
+        font-style: normal;
+        font-size: 7;
+    }
+
+    footer .container {
+        background-color: #FBD6EA;
+    }
+
+
+    
+
+}
